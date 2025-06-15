@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e3a8a;
+  --primary-light: #2563eb;
+  --secondary: #0ea5e9;
+  --accent: #f59e0b;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --gray-light: #f1f5f9;
+  --gray: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    --gray-light: #1e293b;
+    --gray: #94a3b8;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-700 hover:bg-blue-800 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-sky-500 hover:bg-sky-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300;
+  }
+  
+  .btn-accent {
+    @apply bg-amber-500 hover:bg-amber-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300;
+  }
+  
+  .emergency-badge {
+    @apply bg-red-600 text-white text-sm font-bold px-4 py-1 rounded-full uppercase;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-blue-900 dark:text-blue-100 mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-blue-700 dark:text-blue-300 mb-8 max-w-3xl;
+  }
+} 
