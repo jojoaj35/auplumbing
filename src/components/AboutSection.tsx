@@ -21,6 +21,12 @@ const features = [
     icon: <FaUsers className="w-8 h-8 text-blue-700 dark:text-blue-400" />,
     title: 'Customer Satisfaction',
     description: 'Our customers are our top priority, and we strive for 100% satisfaction.'
+  },
+  {
+    id: 4,
+    icon: <FaAward className="w-8 h-8 text-blue-700 dark:text-blue-400" />,
+    title: 'Fourth Generation',
+    description: 'A family-owned business with deep community roots and generations of plumbing expertise.'
   }
 ];
 
@@ -58,7 +64,7 @@ const AboutSection = () => {
               we're here to help with all your plumbing needs.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               {features.map((feature) => (
                 <div key={feature.id} className="text-center p-4">
                   <div className="flex justify-center mb-3">
