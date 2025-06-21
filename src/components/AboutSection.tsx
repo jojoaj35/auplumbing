@@ -120,7 +120,7 @@ const AboutSection = () => {
                 {/* Elijah */}
                 <div className="flex flex-col items-center text-center">
                   <div className="relative w-32 h-32 mb-2 rounded-full overflow-hidden shadow-lg">
-                    <Image src="/images/IMG_9857.jpg" alt="Elijah Ramirez" fill className="object-cover object-center" />
+                    <Image src="/images/IMG_9857.jpg" alt="Elijah Ramirez" fill className="object-cover" style={{ objectPosition: 'center 30%' }} />
                   </div>
                   <span className="font-semibold text-blue-900 dark:text-blue-200">Elijah Ramirez</span>
                   <span className="text-sm text-blue-700 dark:text-blue-300 mb-1">Plumbing Technician</span>
