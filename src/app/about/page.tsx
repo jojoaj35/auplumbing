@@ -103,6 +103,13 @@ export default function About() {
                       alt={member.name}
                       fill
                       className="object-cover"
+                      style={
+                        member.name === 'Andrew Ugarte' 
+                          ? { objectPosition: 'center 25%' }
+                          : member.name === 'Elijah Ramirez'
+                          ? { objectPosition: 'center 20%' }
+                          : {}
+                      }
                     />
                   </div>
                   <div className="p-6">
