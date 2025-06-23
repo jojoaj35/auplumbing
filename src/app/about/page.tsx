@@ -37,17 +37,17 @@ const team = [
   },
   {
     id: 2,
-    name: 'Christopher Elizondo',
+    name: 'Marcos Gonzales',
     position: 'Lead Plumber',
     bio: 'Expert in residential and commercial plumbing with a focus on quality workmanship.',
-    image: '/images/IMG_9844.jpg'
+    image: '/images/IMG_9854.jpg'
   },
   {
     id: 3,
-    name: 'Marcos Gonzales',
+    name: 'Christopher Elizondo',
     position: 'Senior Plumber',
     bio: 'Specializes in emergency plumbing services and complex installations.',
-    image: '/images/IMG_9854.jpg'
+    image: '/images/IMG_9844.jpg'
   },
   {
     id: 4,

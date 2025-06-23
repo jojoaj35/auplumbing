@@ -95,23 +95,23 @@ const AboutSection = () => {
                     With 20+ years of experience in the plumbing industry, Andrew leads our team with expertise and dedication to customer satisfaction.
                   </p>
                 </div>
-                {/* Christopher */}
-                <div className="flex flex-col items-center text-center">
-                  <div className="relative w-32 h-32 mb-2 rounded-full overflow-hidden shadow-lg">
-                    <Image src="/images/IMG_9844.jpg" alt="Christopher Elizondo" fill className="object-cover" />
-                  </div>
-                  <span className="font-semibold text-blue-900 dark:text-blue-200">Christopher Elizondo</span>
-                  <span className="text-sm text-blue-700 dark:text-blue-300 mb-1">Lead Plumber</span>
-                  <p className="text-gray-600 dark:text-gray-400 text-xs">
-                    Expert in residential and commercial plumbing with a focus on quality workmanship.
-                  </p>
-                </div>
                 {/* Marcos */}
                 <div className="flex flex-col items-center text-center">
                   <div className="relative w-32 h-32 mb-2 rounded-full overflow-hidden shadow-lg">
                     <Image src="/images/IMG_9854.jpg" alt="Marcos Gonzales" fill className="object-cover" />
                   </div>
                   <span className="font-semibold text-blue-900 dark:text-blue-200">Marcos Gonzales</span>
+                  <span className="text-sm text-blue-700 dark:text-blue-300 mb-1">Lead Plumber</span>
+                  <p className="text-gray-600 dark:text-gray-400 text-xs">
+                    Expert in residential and commercial plumbing with a focus on quality workmanship.
+                  </p>
+                </div>
+                {/* Christopher */}
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative w-32 h-32 mb-2 rounded-full overflow-hidden shadow-lg">
+                    <Image src="/images/IMG_9844.jpg" alt="Christopher Elizondo" fill className="object-cover" />
+                  </div>
+                  <span className="font-semibold text-blue-900 dark:text-blue-200">Christopher Elizondo</span>
                   <span className="text-sm text-blue-700 dark:text-blue-300 mb-1">Senior Plumber</span>
                   <p className="text-gray-600 dark:text-gray-400 text-xs">
                     Specializes in emergency plumbing services and complex installations.
