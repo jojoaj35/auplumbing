@@ -105,7 +105,7 @@ export default function About() {
                       className="object-cover"
                       style={
                         member.name === 'Andrew Ugarte' 
-                          ? { objectPosition: 'center 40%' }
+                          ? { objectPosition: 'center 50%' }
                           : member.name === 'Elijah Ramirez'
                           ? { objectPosition: 'center 20%' }
                           : {}
